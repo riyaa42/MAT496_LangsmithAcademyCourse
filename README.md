@@ -201,7 +201,7 @@ In this video, we start off by opening a trace of a user question like we did in
 
 There are no files for this video as it is on the Langsmith Dashboard.
 
-This video covers the feature of the Prompt canvas that allows us to work with LLMs to improve upon our prompt templates according to our specific requirements. This results in better outputs. We can ask followup questions and make followup edits to improve upon our prompts further and rewrite them. We can edit the prompts ourselves in the prompt canvas as well, and we can also see the difference/similarity with older versions. 
+This video covers the feature of the Prompt canvas that allows us to work with LLMs to improve upon our prompt templates according to our specific requirements. This results in better outputs. We can ask followup questions and make followup edits to improve upon our prompts further and rewrite them. We can edit the prompts ourselves in the prompt canvas as well, and we can also see the difference/similarity with older versions. Here I've refined upon my own prompt that I've been using before to make the LLM answer questions about high fantasy novels. 
 
 <img width="1793" height="903" alt="image" src="https://github.com/user-attachments/assets/8e2b72d2-e769-4172-834a-91a87179588d" />
 
