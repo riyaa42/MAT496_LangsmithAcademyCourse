@@ -197,5 +197,12 @@ In previous modules, we used a utils.py file. In this video, we are taught a pra
 
 In this video, we start off by opening a trace of a user question like we did in previous modules, however, now we open it in playground and learn how to optimize the prompt by using variables and changing the prompt itself to gain a better output. We then implement this in the dataset as well. By refining our prompts and testing them with datasets, we can ensure our code always uses the latest version of the prompt. This workflow makes it easier for us to improve our applications without constantly updating the code.
 
+## Video 4: Prompt Canvas 
+
+There are no files for this video as it is on the Langsmith Dashboard.
+
+This video covers the feature of the Prompt canvas that allows us to work with LLMs to improve upon our prompt templates according to our specific requirements. This results in better outputs. We can ask followup questions and make followup edits to improve upon our prompts further and rewrite them. We can edit the prompts ourselves in the prompt canvas as well, and we can also see the difference/similarity with older versions. 
+
+<img width="1793" height="903" alt="image" src="https://github.com/user-attachments/assets/8e2b72d2-e769-4172-834a-91a87179588d" />
 
 
