@@ -191,5 +191,11 @@ We often hardcode our prompts directly into the code. This doesn't allow us to v
 
 In this module in the file you can see changes I've made into making a custom output schema and calling it in my code and various ways I've played around with the prompt Hub.
 
+### Video 3: Prompt Engineering Lifecycle 
+
+In previous modules, we used a utils.py file. In this video, we are taught a practical example on how to use the plaground and prompt hub together in the RAG application instead of connecting to a utils.py file. I used the same app.py file I used before, where instead of embedding the langsmith documentation I just use a custom dataset that I have used previously about fantasy books. 
+
+In this video, we start off by opening a trace of a user question like we did in previous modules, however, now we open it in playground and learn how to optimize the prompt by using variables and changing the prompt itself to gain a better output. We then implement this in the dataset as well. By refining our prompts and testing them with datasets, we can ensure our code always uses the latest version of the prompt. This workflow makes it easier for us to improve our applications without constantly updating the code.
+
 
 
