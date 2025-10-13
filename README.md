@@ -172,10 +172,10 @@ The LangSmith dashboard provides built-in metrics and visualizations to help you
 * Use charts and graphs to visualize performance trends
 * Compare models side-by-side with visual metrics
 
-##MODULE 3
-(./MODULE_3)
+## MODULE 3
+[MODULE_3](./MODULE_3)
 
-###Video 1: Playground Experiments 
+### Video 1: Playground Experiments
 
 Prompts are of 2 types. Hard-coded prompts are the ones that we usually think of that are a sequence of strings. Prompt Templates give more flexibility because they have templated variables where information is filled in due to the user at run time.
 
@@ -184,5 +184,12 @@ Langsmith dashboard Playground specifically gives us the option to play around w
 We can change model providors and the models themselves along with setting parameters of chosen models such as the temperature. It is easy to track token usage etc along with being able to see how much of a different output different System Prompts have. We can also compare the performance of 2 different models.
 
 To test the concept of output schemas I have created my own output schema that is an array of objects with each object being a book recommendation with other important fields. I have also implemented the same concept in the notebook wil the help of adding a custom made tool in the system prompt. I have also tested it over my custom dataset that I made. All of the screenshots and more details about the process are alongside my code in the notebooks.
+
+### Video 2: Prompt Hub
+
+We often hardcode our prompts directly into the code. This doesn't allow us to version our prompts as we iterate on the application. This video explores how we can use langsmith's Prompt Hub for storing our prompts. We can store a system message, human message, etc thats passed to the chatbot. We can provide templated variables that allow the user to input the variables at runtime. Information is stored including model providor, model, hyperparameters like temperature, along with things like an output schema. This makes overall a versioning scheme.We learn how to save prompts, fork them for new versions, and pull them into our code using the SDK. 
+
+In this module in the file you can see changes I've made into making a custom output schema and calling it in my code and various ways I've played around with the prompt Hub.
+
 
 
